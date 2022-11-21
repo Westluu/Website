@@ -1,4 +1,5 @@
 import { Icon } from '@iconify/react';
+// import myFile from "./static/Wesley_Resume.pdf"
 
 const items = [
     { icon: 'fab fa-linkedin', link: 'https://www.linkedin.com/in/wesley-luu-067771204/' },
@@ -11,7 +12,7 @@ const navItems = [
     { icon: 'fal fa-home', active: 'fa fa-home', label: 'Home', href: '/' },
     { icon: 'fal fa-compass', active: 'fa fa-compass', label: 'Projects', href: '/projects' },
     { icon: 'fal fa-phone', active: 'fa fa-phone', label: 'Contact', href: '/contact' },
-    { icon: 'fal fa-file', active: 'fa fa-file', label: 'Resume', target: "_blank", rel: "norefferer", href: 'https://drive.google.com/file/d/1v_6olT9s6_7RZWvQ9T5-FVP1dd2AlHSU/view' }
+    { icon: 'fal fa-file', active: 'fa fa-file', label: 'Resume', target: "_blank", rel: "norefferer", href: '/Wesley_Resume.pdf' }
 ]
 
 import Link from 'next/link';
