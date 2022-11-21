@@ -5,6 +5,7 @@ export default async (req, res) => {
         image: "https://cdn.discordapp.com/attachments/981024250091687946/1044065994890543114/image.png",
         name: "Intern (Software Developer)",
         location: "California Cybersecurity Institute",
+        date: "April - October 2021",
         description: "• Revamped legacy code of previous discord bots into modern, maintainable, and robust code for future development." + "" +
         "• Fixed internal structure and UI/UX functionality which allowed users to understand the bot intuitively and drastically. Reducing the number of errors a user can make." + "\n" +
         "• Where the bot verified over 200+ students in the competition and handled over 100+ support ticket sent by the student" + "\n" +

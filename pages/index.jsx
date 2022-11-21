@@ -52,6 +52,7 @@ export default function Home() {
                 <a target="_blank" rel="noreferrer" key={__} className="bg-neutral-800/10 p-4 hover:bg-neutral-800/20 shadow-lg hover:shadow-xl transition-all duration-200 rounded-lg w-full">
                   <img alt="experience_img" src={_.image} width="250" className="rounded-lg" height="100" />
                   <p className="text-4xl font-bold mt-5">{_.location}</p>
+                  <p className="text-2xl font-bold mt-5">{_.date}</p>
                   <p className="text-xl font-bold md-5" >{_.name}</p>
                   <br></br>
                   <ul>
